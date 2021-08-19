@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="body">
+      <div className="card">
+        <img src="../public/images/illustration-hero.svg" alt="illustration-hero" />
+        <h3>Order Summary</h3>
+
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+
+        Annual Plan
+        $59.99/year
+
+        Change
+        <div className="buttons">
+          <button>Proceed to Payment</button>
+          <button>Cancel Order</button>
+        </div>
+
+        <div className="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
+          Coded by <a href="#">Your Name Here</a>.
+        </div>
+      </div>
     </div>
   );
 }
