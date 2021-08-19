@@ -39,12 +39,26 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Material UI](link) - // TODO
+- [React](https://reactjs.org/)
+- [Material - UI](https://material-ui.com) - React components framework
 
 ### What I learned
 
+- interesting learnings tba
+
 ### Backlog
+
+1. [done] Make the Background work
+2. rename folder to fem-order-summary-component
+3. Install Material UI
+4. Build out Card component
+   1. mobile version
+   2. desktop version
+5. Make sure the active states work as expected
+6. check font-family, font-sizes, colors
+7. check mobile-responsiveness and breakpoints
+8. add jest-tests
+9. deploy to github-pages
 
 ### Useful resources
 

@@ -9,4 +9,8 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/src/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* don't scroll background */
+  background-size: contain; /* grow to fit width */
 }
