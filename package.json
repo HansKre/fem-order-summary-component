@@ -1,5 +1,6 @@
 {
   "name": "fem-order-summary-component",
+  "description": "This is a solution to the Order summary card challenge on Frontend Mentor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "github",
+    "url": "git@github.com:HansKre/fem-order-summary-component.git"
+  },
+  "license": "ISC"
 }
