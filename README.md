@@ -8,7 +8,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
+    - [Solution Screenshot](#solution-screenshot)
+    - [Side-By-Side-Mobile](#side-by-side-mobile)
+    - [Comparison](#comparison)
     - [Links](#links)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -23,9 +25,17 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Build the Order Component which looks as closely as the design template
 - Users should be able to see hover states for interactive elements
 
-### Screenshot
+### Solution Screenshot
 
-![](./screenshot.jpg)
+![solution](./doc/screenshot-mobile.jpeg)
+
+### Side-By-Side-Mobile
+
+![side-by-side-mobile](doc/screenshot-side-by-side-mobile.jpeg)
+
+### Comparison
+
+![comparison](doc/comparison-mobile.jpeg)
 
 ### Links
 
