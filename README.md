@@ -8,6 +8,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
+    - [Demo](#demo)
     - [Solution Screenshot](#solution-screenshot)
     - [Side-By-Side-Mobile](#side-by-side-mobile)
     - [Comparison](#comparison)
@@ -25,15 +26,25 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Build the Order Component which looks as closely as the design template
 - Users should be able to see hover states for interactive elements
 
+### Demo
+
+[Solution Demo](https://vigorous-wright-d3c341.netlify.app/)
+
 ### Solution Screenshot
 
 ![solution](./doc/screenshot-mobile.jpeg)
 
 ### Side-By-Side-Mobile
 
+- Left: my solution
+- Right: design template
+
 ![side-by-side-mobile](doc/screenshot-side-by-side-mobile.jpeg)
 
 ### Comparison
+
+- Left: my solution
+- Right: design template
 
 ![comparison](doc/comparison-mobile.jpeg)
 
@@ -51,6 +62,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Mobile-first workflow
 - [React](https://reactjs.org/)
 - [Material - UI](https://material-ui.com) - React components framework
+- [Netlify Static Site Hosting](https://netlify.com)
 
 ### What I learned
 
