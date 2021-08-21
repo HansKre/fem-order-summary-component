@@ -46,7 +46,9 @@ const useStyles = makeStyles((theme) => ({
     order: {
         backgroundColor: "ghostwhite",
         borderRadius: "12px",
-        marginTop: "7px"
+        marginTop: "7px",
+        marginLeft: "8px",
+        marginRight: "8px",
     },
     orderFont: {
         fontSize: "14px",
@@ -60,8 +62,10 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-evenly",
-        paddingLeft: "40px",
-        paddingRight: "40px",
+    },
+    paddingLeftRight: {
+        paddingLeft: "24px",
+        paddingRight: "24px",
     },
     gridContainer: {
         height: "100%",
@@ -132,12 +136,14 @@ export default function SummaryCard() {
                 <Grid container direction="column" className={classes.gridContainer}>
                     <Grid item className={classes.grow}>
                         <CardContent className={classes.cardContent} >
-                            <Typography className={`${classes.h5} ${classes.bold}`} gutterBottom variant="h5" component="h2">
-                                Order Summary
-                            </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p" className={classes.description}>
-                                You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-                            </Typography>
+                            <div className={classes.paddingLeftRight} >
+                                <Typography className={`${classes.h5} ${classes.bold}`} gutterBottom variant="h5" component="h2">
+                                    Order Summary
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p" className={classes.description}>
+                                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                                </Typography>
+                            </div>
                             <Card className={classes.order} elevation={0}>
                                 <CardContent className={classes.orderMarginTopBottom}>
                                     <Grid container alignItems="center">
