@@ -78,9 +78,16 @@ const useStyles = makeStyles((theme) => ({
     },
     buttonPrimary: {
         boxShadow: "0 23px 24px -11px rgb(63 81 181 / 50%)",
+        "&:hover": {
+            boxShadow: "0 23px 24px -11px rgb(63 81 181 / 50%)",
+            backgroundColor: "#776DF9",
+        }
     },
     buttonSecondary: {
         marginTop: "10px",
+        "&:hover": {
+            color: "#25334E",
+        }
     },
     link: {
         color: theme.palette.primary.main,
@@ -103,6 +110,11 @@ const useStyles = makeStyles((theme) => ({
     buttonsContainer: {
         paddingTop: 0,
         marginTop: "-2px",
+    },
+    aTag: {
+        "&:hover": {
+            textDecoration: "none",
+        }
     }
 }));
 
@@ -139,6 +151,7 @@ export default function SummaryCard() {
                                                 href="https://google.com"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
+                                                className={classes.aTag}
                                             >
                                                 <Typography className={`${classes.link} ${classes.bold} ${classes.marginLeft} ${classes.bold}`}>Change</Typography>
                                             </a>
