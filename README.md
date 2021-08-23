@@ -12,7 +12,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
     - [Solution Screenshot](#solution-screenshot)
     - [Side-By-Side-Mobile](#side-by-side-mobile)
     - [Comparison](#comparison)
-    - [Links](#links)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Backlog](#backlog)
@@ -48,17 +47,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![comparison](doc/comparison-mobile.jpeg)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/)
 - [Material - UI](https://material-ui.com) - React components framework
@@ -70,17 +60,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Backlog
 
-1. [done] Make the Background work
-2. rename folder to fem-order-summary-component
-3. Install Material UI
-4. Build out Card component
-   1. mobile version
-   2. desktop version
-5. Make sure the active states work as expected
-6. check font-family, font-sizes, colors
-7. check mobile-responsiveness and breakpoints
-8. add jest-tests
-9. deploy to github-pages
+1. Implement desktop version
+1. check font-family, font-sizes, colors
+1. check mobile-responsiveness and breakpoints
+1. add jest-tests
 
 ### Useful resources
 
